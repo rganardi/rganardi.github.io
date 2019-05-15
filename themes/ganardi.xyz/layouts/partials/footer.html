@@ -1,0 +1,12 @@
+</div>
+<script src="/js/nav.js" async></script>
+<footer id='social-links'>
+  <ul>
+    <text>find me at</text>
+    {{ range .Site.Params.social }}
+    <li><a href={{ .URL }}>{{ .name }}</a></li>
+    {{ end }}
+  </ul>
+</footer>
+  </body>
+</html>

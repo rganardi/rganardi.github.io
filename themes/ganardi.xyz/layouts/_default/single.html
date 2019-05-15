@@ -1,0 +1,16 @@
+{{ partial "head.html" . }}
+<article class="post-single">
+	<h1 id='top'>{{ .Title }}</h1>
+	<div class="post-description">
+		<div>
+			{{ .Description }}
+		</div>
+		<hr>
+		<div class="post-info">
+		{{ .PublishDate.Format "January 2, 2006" }} | {{ .FuzzyWordCount }} words | {{ .ReadingTime }} minutes
+		</div>
+	</div>
+	{{ .Content }}
+  <a href='#top' id='scroll-to-top'>scroll to top</a>
+</article>
+{{ partial "footer.html" . }}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{{ .Site.Title }}</title>
+    <link rel="icon" href="/img/favicon.img" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  </head>
+  <body>
+	  <header>
+	  <a id='nav-toggle'>
+		  <svg width='25px' height='25px'>
+			  <line
+				  x1=4.5
+				  y1=4.5
+				  x2=20.5
+				  y2=4.5
+				  />
+			  <line
+				  x1=4.5
+				  y1=12.5
+				  x2=20.5
+				  y2=12.5
+				  />
+			  <line
+				  x1=4.5
+				  y1=20.5
+				  x2=20.5
+				  y2=20.5
+				  />
+		  </svg>
+	  </a>
+	  {{ if .Parent }}
+	  <a id='nav-back' aria-label='back' href='{{ .Parent.RelPermalink }}'>
+		  <svg width='25px' height='25px'>
+			  <line
+				  x1=6.5
+				  y1=12.5
+				  x2=16.5
+				  y2=4.5
+				  />
+			  <line
+				  x1=6.5
+				  y1=12.5
+				  x2=16.5
+				  y2=20.5
+				  />
+		  </svg>
+	  </a>
+	  {{ end }}
+	  <div id='nav-links' class='hide'>
+		  <ul>
+			  <li><a href='/'>/</a></li>
+			  {{ range .Site.Sections }}
+				  <li><a href='{{ .RelPermalink }}'>{{ .RelPermalink }}</a></li>
+			  {{ end }}
+		  </ul>
+	  </div>
+	  </header>
+    <div id='content'>
