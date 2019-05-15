@@ -1,0 +1,18 @@
+{{ partial "head.html" . }}
+<article class="post-list">
+	<h1 id='top'>{{ .RelPermalink }}</h1>
+	<hr>
+	{{ range $.Site.Data.projects.project }}
+		<div class='post'>
+			<a href="{{ .url }}">
+				<h3 class='post-list-title'>{{ .name }}</h3>
+			</a>
+			<div class='post-description'>
+				<div class='tagline'>
+					{{ .description }}
+				</div>
+			</div>
+		</div>
+	{{ end }}
+</article>
+{{ partial "footer.html" . }}

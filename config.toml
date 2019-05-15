@@ -1,0 +1,19 @@
+baseURL = "https://ray.ganardi.xyz/"
+languageCode = "en-us"
+title = "Ray Ganardi"
+theme = "ganardi.xyz"
+pygmentsCodeFences = true
+pygmentsStyle = "github"
+pygmentsOptions = "linenos=table"
+enableEmoji = true
+
+[author]
+	name = "Ray Ganardi"
+
+[params]
+	[[params.social]]
+		name = "github"
+		URL = "https://github.com/rganardi"
+	[[params.social]]
+		name = "arXiv"
+		URL = "https://arxiv.org/search/?searchtype=author&query=Ganardi%2C+R"

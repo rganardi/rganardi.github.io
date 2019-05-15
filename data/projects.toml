@@ -1,0 +1,19 @@
+[[project]]
+name = 'lisp'
+url = 'https://github.com/rganardi/lisp'
+description = 'a small lisp interpreter in C'
+
+[[project]]
+name = 'tv'
+url = 'https://github.com/rganardi/tv'
+description = 'minimalistic showrss.info client'
+
+[[project]]
+name = 'pod'
+url = 'https://github.com/rganardi/pod'
+description = 'minimalistic podcast manager'
+
+[[project]]
+name = 'kapan'
+url = 'https://github.com/rganardi/kapan'
+description = 'small cli calendar'
