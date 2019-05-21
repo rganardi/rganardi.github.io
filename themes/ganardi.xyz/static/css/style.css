@@ -260,6 +260,17 @@ hr + .post {
 	margin: 1.2em 0;
 }
 
+#content-404 {
+	flex: 1 0 auto;
+	height: 45ex;
+	overflow: hidden;
+	line-height: 1.5em;
+}
+
+#content-404 > a {
+	font-weight: 800;
+}
+
 @media print {
 	body {
 		max-width: none
