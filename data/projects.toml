@@ -17,3 +17,8 @@ description = 'minimalistic podcast manager'
 name = 'kapan'
 url = 'https://github.com/rganardi/kapan'
 description = 'small cli calendar'
+
+[[project]]
+name = 'teoh'
+url = 'https://github.com/rganardi/teoh'
+description = 'text editor over HTTP'
