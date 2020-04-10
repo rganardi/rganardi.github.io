@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ .Site.Title }}</title>
+    <title>
+	    {{ .Site.Title }}
+	    {{ if .Page.Title }}
+		     - {{ .Page.Title }}
+	    {{end}}
+    </title>
     <link rel="icon" href="/img/favicon.img" />
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" async />
 
@@ -11,7 +16,7 @@
   </head>
   <body>
 	  <header>
-	  <a id='nav-toggle'>
+	  <div id='nav-toggle'>
 		  <svg width='25px' height='25px'>
 			  <line
 				  x1=4.5
@@ -32,7 +37,7 @@
 				  y2=20.5
 				  />
 		  </svg>
-	  </a>
+	  </div>
 	  {{ if .Parent }}
 	  <a id='nav-back' aria-label='back' href='{{ .Parent.RelPermalink }}'>
 		  <svg width='25px' height='25px'>

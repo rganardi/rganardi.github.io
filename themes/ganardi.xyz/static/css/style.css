@@ -5,18 +5,19 @@
 }
 
 html, body {
-	height: calc(100% - 2em);
+	height: 100vh;
 	scroll-behavior: smooth;
 }
 
 body {
 	display: flex;
 	flex-direction: column;
+	box-sizing: border-box;
 
-	margin: 1em auto;
+	margin: 0 auto;
 	max-width: 40em;
-	padding: 0 .62em;
-	font: 1.2em/1.62 'Montserrat', sans-serif;
+	padding: 1em .62em 0 .62em;
+	font: 1em/1.62 'Montserrat', sans-serif;
 }
 
 a {
@@ -46,7 +47,7 @@ button {
 }
 
 #landing-page {
-	height: 80vh;
+	height: 90vh;
 	position: relative;
 	z-index: 0;
 }
@@ -89,6 +90,7 @@ footer text {
 }
 
 footer > ul {
+	list-style-type: none;
 	margin-top: 1.62em;
 	margin-left: auto;
 	margin-right: auto;
@@ -139,10 +141,6 @@ footer > ul > li {
 	stroke: #fff;
 }
 
-#nav-toggle > svg:hover > line, #nav-back > svg:hover > line {
-	transform: scaleY(0.7) translateY(3.75px);
-}
-
 #nav-links {
 	position: fixed;
 	top: 0;
@@ -181,10 +179,6 @@ footer > ul > li {
 #social-links {
 }
 
-ul {
-	list-style-type: none;
-}
-
 #links > ul > li, #social-links > ul > li {
 	display: inline;
 	margin: 0 .62em;
@@ -192,6 +186,17 @@ ul {
 
 pre {
 	overflow: auto;
+	padding-left: 1em;
+	border-left: 4px solid black;
+}
+
+div.highlight td:first-child > pre, div.highlight > pre {
+	border-left: 4px solid black !important;
+}
+
+div.highlight pre {
+	border-left: none;
+	overflow: unset;
 }
 
 code {
