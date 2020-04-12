@@ -89,6 +89,10 @@ footer text {
 	margin: 0 .62em;
 }
 
+#nav-links > ul {
+	list-style-type: none;
+}
+
 footer > ul {
 	list-style-type: none;
 	margin-top: 1.62em;
