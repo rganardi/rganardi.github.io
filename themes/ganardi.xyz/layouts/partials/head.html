@@ -16,7 +16,7 @@
   </head>
   <body>
 	  <header>
-	  <div id='nav-toggle'>
+	  <button id='nav-toggle'>
 		  <svg width='25px' height='25px'>
 			  <line
 				  x1=4.5
@@ -37,7 +37,7 @@
 				  y2=20.5
 				  />
 		  </svg>
-	  </div>
+	  </button>
 	  {{ if .Parent }}
 	  <a id='nav-back' aria-label='back' href='{{ .Parent.RelPermalink }}'>
 		  <svg width='25px' height='25px'>
