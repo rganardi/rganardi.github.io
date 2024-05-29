@@ -1,7 +1,7 @@
 baseURL = "https://ray.ganardi.xyz/"
 languageCode = "en-us"
 title = "Ray Ganardi"
-theme = "ganardi.xyz"
+theme = "notheme"
 pygmentsCodeFences = true
 pygmentsStyle = "github"
 pygmentsOptions = "linenos=table"
@@ -11,6 +11,9 @@ enableEmoji = true
 	name = "Ray Ganardi"
 
 [params]
+	menu = false
+	footer = false
+
 	[[params.social]]
 		name = "github"
 		URL = "https://github.com/rganardi"
