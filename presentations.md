@@ -6,6 +6,11 @@ header-includes: |
     <link rel="stylesheet" href="main.css">
 ---
 
+* Second Law of Entanglement Manipulation with Entanglement Battery \
+AQIS 2024 \
+2024.08, Sapporo, Japan \
+[poster](assets/202408-aqis.pdf)
+
 * Catalytic and asymptotic equivalence for quantum entanglement \
 Quantum Resources 2023 \
 2023.12, Singapore \
