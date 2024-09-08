@@ -3,6 +3,7 @@ title: Ray Ganardi
 document-css: false
 header-includes: |
     <link rel="stylesheet" href="main.css">
+    <meta name="google-site-verification" content="5fEQpeRynruSs3nLF3NflUGdWJeXZjb2epN3DdSOlBs" />
 ---
 
 <code>ray (at) ganardi (dot) xyz</code>
