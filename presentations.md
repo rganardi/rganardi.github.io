@@ -2,6 +2,7 @@
 title: Presentations
 title-prefix: Ray Ganardi
 document-css: false
+lang: en
 header-includes: |
     <link rel="stylesheet" href="main.css">
 ---

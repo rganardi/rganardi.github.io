@@ -14,7 +14,7 @@ arxiv_api_url = 'http://export.arxiv.org/api/query?search_query=au:Ganardi_Ray&m
 
 header="""
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />

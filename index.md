@@ -1,9 +1,11 @@
 ---
 title: Ray Ganardi
 document-css: false
+lang: en
 header-includes: |
     <link rel="stylesheet" href="main.css">
     <meta name="google-site-verification" content="5fEQpeRynruSs3nLF3NflUGdWJeXZjb2epN3DdSOlBs" />
+    <meta name="description" content="Researcher in quantum information theory." />
 ---
 
 <code>ray (at) ganardi (dot) xyz</code>
