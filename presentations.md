@@ -8,6 +8,11 @@ header-includes: |
 ---
 
 * Second Law of Entanglement Manipulation with Entanglement Battery \
+IPS \
+2024.10, Singapore \
+[slides](assets/202410-ips.pdf)
+
+* Second Law of Entanglement Manipulation with Entanglement Battery \
 AQIS \
 2024.08, Sapporo, Japan \
 [poster](assets/202408-aqis.pdf)
